@@ -1,0 +1,1 @@
+{"list_properties": [], "mixins": [], "ruby_class_name": "EC2EIP", "type_underscore": "aws_ec2_eip", "type": "AWS::EC2::EIP", "properties": [{"required": "No", "type": "String", "name": "InstanceId", "name_underscore": "instance_id"}, {"required": "Conditional. Required when allocating an address to a VPC", "type": "String", "name": "Domain", "name_underscore": "domain"}]}

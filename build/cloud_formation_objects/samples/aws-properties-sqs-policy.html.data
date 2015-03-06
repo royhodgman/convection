@@ -1,0 +1,1 @@
+{"list_properties": [{"required": "Yes", "type": "A list of strings", "name": "Queues", "name_underscore": "queues"}], "mixins": [], "ruby_class_name": "SQSQueuePolicy", "type_underscore": "aws_sqs_queue_policy", "type": "AWS::SQS::QueuePolicy", "properties": [{"required": "Yes", "type": "JSON object", "name": "PolicyDocument", "name_underscore": "policy_document"}]}

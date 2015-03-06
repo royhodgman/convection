@@ -1,0 +1,1 @@
+{"list_properties": [], "mixins": [], "ruby_class_name": "CloudFrontDistribution", "type_underscore": "aws_cloud_front_distribution", "type": "AWS::CloudFront::Distribution", "properties": [{"required": "Yes", "type": "DistributionConfig type", "name": "DistributionConfig", "name_underscore": "distribution_config"}]}

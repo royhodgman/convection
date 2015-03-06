@@ -1,0 +1,1 @@
+{"list_properties": [{"required": "No", "type": "List of IAM Policies", "name": "Policies", "name_underscore": "policies"}], "mixins": [], "ruby_class_name": "IAMGroup", "type_underscore": "aws_iam_group", "type": "AWS::IAM::Group", "properties": [{"required": "No", "type": "String", "name": "Path", "name_underscore": "path"}]}

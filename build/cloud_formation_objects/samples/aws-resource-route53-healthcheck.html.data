@@ -1,0 +1,1 @@
+{"list_properties": [], "mixins": [], "ruby_class_name": "Route53HealthCheck", "type_underscore": "aws_route53_health_check", "type": "AWS::Route53::HealthCheck", "properties": [{"required": "Yes", "type": "Amazon Route\u00a053 HealthCheck\n      Configuration", "name": "HealthCheckConfig", "name_underscore": "health_check_config"}]}

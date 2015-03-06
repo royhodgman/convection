@@ -1,0 +1,1 @@
+{"list_properties": [{"required": "Yes", "type": "List of users", "name": "Users", "name_underscore": "users"}], "mixins": [], "ruby_class_name": "IAMUserToGroupAddition", "type_underscore": "aws_iam_user_to_group_addition", "type": "AWS::IAM::UserToGroupAddition", "properties": [{"required": "Yes", "type": "String", "name": "GroupName", "name_underscore": "group_name"}]}

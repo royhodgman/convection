@@ -1,0 +1,1 @@
+{"list_properties": [], "mixins": ["Taggable"], "ruby_class_name": "EC2RouteTable", "type_underscore": "aws_ec2_route_table", "type": "AWS::EC2::RouteTable", "properties": [{"required": "Yes", "type": "String", "name": "VpcId", "name_underscore": "vpc_id"}, {"required": "No", "type": "AWS CloudFormation Resource Tags", "name": "Tags", "name_underscore": "tags"}]}

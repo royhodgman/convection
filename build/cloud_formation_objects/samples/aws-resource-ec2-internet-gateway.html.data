@@ -1,0 +1,1 @@
+{"list_properties": [], "mixins": ["Taggable"], "ruby_class_name": "EC2InternetGateway", "type_underscore": "aws_ec2_internet_gateway", "type": "AWS::EC2::InternetGateway", "properties": [{"required": "No", "type": "AWS CloudFormation Resource Tags", "name": "Tags", "name_underscore": "tags"}]}

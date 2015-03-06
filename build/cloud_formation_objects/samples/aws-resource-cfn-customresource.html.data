@@ -1,0 +1,1 @@
+{"list_properties": [], "mixins": [], "ruby_class_name": "CloudFormationCustomResource", "type_underscore": "aws_cloud_formation_custom_resource", "type": "AWS::CloudFormation::CustomResource", "properties": [{"required": "Yes", "type": "String", "name": "ServiceToken", "name_underscore": "service_token"}]}

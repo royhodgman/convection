@@ -1,0 +1,1 @@
+{"list_properties": [], "mixins": [], "ruby_class_name": "KinesisStream", "type_underscore": "aws_kinesis_stream", "type": "AWS::Kinesis::Stream", "properties": [{"required": "Yes", "type": "Integer", "name": "ShardCount", "name_underscore": "shard_count"}]}

@@ -1,0 +1,1 @@
+{"list_properties": [], "mixins": ["Taggable"], "ruby_class_name": "EC2NetworkAcl", "type_underscore": "aws_ec2_network_acl", "type": "AWS::EC2::NetworkAcl", "properties": [{"required": "No", "type": "AWS CloudFormation Resource Tags", "name": "Tags", "name_underscore": "tags"}, {"required": "Yes", "type": "String", "name": "VpcId", "name_underscore": "vpc_id"}]}

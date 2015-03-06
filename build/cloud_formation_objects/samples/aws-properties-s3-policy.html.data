@@ -1,0 +1,1 @@
+{"list_properties": [], "mixins": [], "ruby_class_name": "S3BucketPolicy", "type_underscore": "aws_s3_bucket_policy", "type": "AWS::S3::BucketPolicy", "properties": [{"required": "Yes", "type": "String", "name": "Bucket", "name_underscore": "bucket"}, {"required": "Yes", "type": "JSON object", "name": "PolicyDocument", "name_underscore": "policy_document"}]}

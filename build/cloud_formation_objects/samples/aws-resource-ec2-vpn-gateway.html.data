@@ -1,0 +1,1 @@
+{"list_properties": [], "mixins": ["Taggable"], "ruby_class_name": "EC2VPNGateway", "type_underscore": "aws_ec2_vpn_gateway", "type": "AWS::EC2::VPNGateway", "properties": [{"required": "Yes", "type": "String", "name": "Type", "name_underscore": "type"}, {"required": "No", "type": "AWS CloudFormation Resource Tags", "name": "Tags", "name_underscore": "tags"}]}

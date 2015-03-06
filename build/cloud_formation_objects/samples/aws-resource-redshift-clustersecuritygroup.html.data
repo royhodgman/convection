@@ -1,0 +1,1 @@
+{"list_properties": [], "mixins": [], "ruby_class_name": "RedshiftClusterSecurityGroup", "type_underscore": "aws_redshift_cluster_security_group", "type": "AWS::Redshift::ClusterSecurityGroup", "properties": [{"required": "Yes", "type": "String", "name": "Description", "name_underscore": "description"}]}

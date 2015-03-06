@@ -1,0 +1,1 @@
+{"list_properties": [], "mixins": [], "ruby_class_name": "LogsLogGroup", "type_underscore": "aws_logs_log_group", "type": "AWS::Logs::LogGroup", "properties": [{"required": "No", "type": "Integer", "name": "RetentionInDays", "name_underscore": "retention_in_days"}]}

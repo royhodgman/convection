@@ -1,0 +1,1 @@
+{"list_properties": [], "mixins": [], "ruby_class_name": "ElastiCacheSecurityGroup", "type_underscore": "aws_elasti_cache_security_group", "type": "AWS::ElastiCache::SecurityGroup", "properties": [{"required": "No", "type": "String", "name": "Description", "name_underscore": "description"}]}

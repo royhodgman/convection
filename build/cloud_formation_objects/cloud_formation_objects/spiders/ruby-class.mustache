@@ -1,0 +1,51 @@
+require_relative '../resource'
+
+module Convection
+  module Model
+    class Template
+      class Resource
+        ##
+        # {{type}}
+        ##
+        class {{ruby_class_name}} < Resource
+
+          {{#mixins}}
+          include Model::Mixin::{{.}}
+          {{/mixins}}
+
+          {{#properties}}
+          property :{{name_underscore}}, '{{name}}'
+          {{/properties}}
+
+          def initialize(*args)
+            super
+            type '{{type}}'
+
+            {{#list_properties}}
+            @properties['{{name}}'] = []
+            {{/list_properties}}
+          end
+
+          {{#list_properties}}
+          def {{name_underscore}}(value)
+            @properties['{{name}}'] << value
+          end
+          {{/list_properties}}          
+
+        end
+      end
+    end
+  end
+
+  module DSL
+    ## Add DSL method to template namespace
+    module Template
+      def {{type_underscore}}(name, &block)
+        r = Model::Template::Resource::{{ruby_class_name}}.new(name, self)
+
+        r.instance_exec(&block) if block
+        resources[name] = r
+      end
+    end
+  end
+end
